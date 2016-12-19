@@ -17,4 +17,7 @@ EOF
 cat >> ~/.aws/config << EOF
 [default]
 region = $AWS_REGION
+
+[preview]
+cloudfront = true
 EOF
